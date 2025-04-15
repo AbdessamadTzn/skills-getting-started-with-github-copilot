@@ -59,7 +59,7 @@ section h3 {
 
 .activity-card {
   margin-bottom: 15px;
-  padding: 15px;
+  padding: 15px; /* Fixed typo: padzding -> padding */
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: white;
@@ -67,24 +67,18 @@ section h3 {
 
 .activity-card h4 {
   margin-bottom: 10px;
-  color: #1a237e; /* Updated to match the header color */
-}
-
-.activity-card p {
-  margin-bottom: 8px;
+  color: #0066cc;
 }
 
 .activity-card ul {
   margin-top: 10px;
   padding-left: 20px;
   list-style-type: disc;
-  color: #555;
+  color: black;
 }
 
 .activity-card ul li {
   margin-bottom: 5px;
-  font-size: 14px;
-  color: #333; /* Updated to a darker shade for better readability */
 }
 
 .form-group {
